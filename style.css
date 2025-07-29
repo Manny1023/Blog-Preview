@@ -55,7 +55,7 @@ section span {
   width: auto;
   font-weight: bold;
   background-color: var(--color1);
-  padding: clamp(0.2rem 0.7rem, 4vw, 0.25rem 0.75rem);
+  padding: clamp(0.2rem, 2vw, 0.25rem) clamp(0.7rem, 4vw, 0.75rem);
   border-radius: 4px;
 }
 
@@ -99,7 +99,7 @@ footer {
 }
 
 .attribution {
-  font-size: 0.68rem;
+  font-size: clamp(0.5rem, 4vw, 0.68rem);
   text-align: center;
 }
 .attribution a {
