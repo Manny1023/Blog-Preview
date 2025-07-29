@@ -6,6 +6,7 @@
   --color3: #6b6b6b;
   --color4: #ffff;
   --shadow-default: 8px 8px rgb(17, 17, 17);
+  --linkColor: hsl(228, 45%, 44%);
 }
 
 * {
@@ -54,7 +55,7 @@ section span {
   width: auto;
   font-weight: bold;
   background-color: var(--color1);
-  padding: 0.25rem 0.75rem;
+  padding: clamp(0.2rem 0.7rem, 4vw, 0.25rem 0.75rem);
   border-radius: 4px;
 }
 
@@ -102,5 +103,5 @@ footer {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--linkColor);
 }
