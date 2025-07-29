@@ -47,7 +47,7 @@ To see how you can add code snippets, see below:
 
 ```css
 section h1 {
-  font-size: clamp(20px, 5vw, 24px);
+  font-size: clamp(1.25rem, 5vw, 1.5rem);
   cursor: pointer;
 }
 ```
@@ -55,8 +55,8 @@ section h1 {
 ```css
 .author img {
   margin: 0;
-  height: 32px;
-  width: 32px;
+  height: 2rem;
+  width: 2rem;
 }
 ```
 
